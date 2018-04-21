@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DTD</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/cleanblog.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="index">DTD</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="post">Video</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact">Contact</a>
+            </li>
+             <li class="nav-item">
+              <a class="nav-link" id="banner"href="#" >Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="fav">Fav List</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/homebg.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h1>Don't take drugs</h1>
+              <span class="subheading">Take drugs is harm for health</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search" title="Type in a word" >
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div  id ="Hello">
+          <div class="post-preview">
+            <a href="page1">
+              <h2 class="post-title">
+                What are the dangers from using drugs?
+              </h2>
+              <h3 class="post-subtitle">
+                DrugWise infographic on drug dangers (PDF)
+              </h3>
+              </a>
+             <input type="button" id="favbut1" value="add fav!"></input>
+          </div>
+       
+          <div class="post-preview">
+            <a href="page2">
+              <h2 class="post-title">
+                <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<!--
+<script>
+$(document).ready(function() {
+      $.ajax({
+            type: 'GET',
+            url: 'http://rest.learncode.academy/api/johnbob/friends',
+            data:{todo:"jsonp"},
+          dataType: "json",
+       
+            success: function(data) {
+              alert("this"+JSON.stringify(data));
+         var json_obj = $.parseJSON(JSON.stringify(data));//parse JSON    
+            //  alert(json_obj[0].name);
+              
+         var output="<ul>";
+            for (var i in json_obj) 
+            {
+                output+="<li>" + json_obj[i].name + ",  " + json_obj[i].id + "</li>";
+            }
+            output+="</ul>";
+              
+              $('#mygithub').html(output);
+         //alert(JSON.stringify(data));
+             //alert(data[9].id);
+         //alert(JSON.stringify(data[8]['name']));
+           //   alert(JSON.stringify(data[8]));
+        // data2 = $.parseJSON(JSON.stringify(data)); 
+            //  alert(data2);
+         // alert(data2[8].id);
+              
+             // $('#mygithub').html(data.data['login']);
+              $('#mygithub').append(JSON.stringify(data[50]['name']));
+              
+                 var html = [];
+            /* parse JSON */
+          //  data = $.parseJSON(data);
+            /* loop through array */
+            $.each(data, function(index, d){            
+                html.push("Manufacturer : ", d.Manufacturer, ", ",
+                          "Sold : ", d.Sold, ", ", 
+                          "Month : ", d.Month, "<br>");
+            }); 
+               $("#div391").html(html.join('')).css("background-color", "orange");
+            },
+            error: function(xhr, status, error) {
+                console.log('Error: ' + error.message);
+            }
+        });
+      /*  $.get( "http://www.wunderground.com/weather-forecast/zmw:00000.1.59358", function( data ) {
+          alert(data);
+            $( ".result" ).html( data );
+           alert( "Load was performed." );
+           });*/
+ 
+}); 
+</script>
+-->
+                <p>
+                  The Disadvantages of Alcohol and Drugs
+                  People use alcohol and drugs for a number of reasons
+                </p>
+              </h2>
+             
+            </a>
+             <input type="button" id="favbut2" value="add fav!"></input>
+          </div>
+        
+          <div class="post-preview">
+            <a href="page3">
+              <h2 class="post-title">
+                Dangers of Drug Addiction
+              </h2>
+              <h3 class="post-subtitle">
+                Even for professional counselors and doctors, it can be hard to identify the point where recreational drug use crosses over into addiction.
+              </h3>
+              
+            </a>
+             <input type="button" id="favbut3" value="add fav!"></input>
+          </div>
+  
+          <div class="post-preview">
+            <a href="page4">
+              <h2 class="post-title">
+                Even for professional counselors and doctors, it can be hard to identify the point where recreational drug use crosses over into addiction.
+              </h2>
+              <h3 class="post-subtitle">
+                Drugs have become a part of our culture since the last century.
+              </h3>
+              
+            </a>
+             <input type="button" id="favbut4" value="add fav!"></input>
+          </div>
+     </div>
+     
+          <!-- Pager -->
+          <div class="clearfix">
+            <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <p class="copyright text-muted">Copyright &copy; Your Website 2018</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/cleanblog.min.js"></script>
+    
+      <script>
+       
+          window.onload = init;
+      function init(){
+        //alert(localStorage.getItem("banner"));
+        if(localStorage.getItem("banner")=="logout"){
+            document.getElementById("banner").innerHTML = localStorage.getItem("banner");
+        }else {
+          document.getElementById("banner").innerHTML = localStorage.getItem("banner");
+        }
+      }
+        
+   </script>
+   <script>
+     $("#banner").click(function(){
+       if(localStorage.getItem("banner")=="logout"){
+         //alert("asdasd");
+       localStorage.setItem("banner","login");
+          
+       location.href="/index";
+         
+       }else {
+       location.href="/login";
+       }
+     });
+    </script>
+    <script>
+function myFunction() {
+    var input, filter, ul, li, a, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("Hello");
+    li = ul.getElementsByTagName("div");
+    for (i = 0; i < li.length; i++) {
+        if (li[i].innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+
+        }
+    }
+}
+</script>
+<script>
+  $(document).ready(function()
+{   
+       $("#favbut1").click(function(){
+    alert("callnow");
+    $.ajax(
+      {
+      url: "http://port-9001.database-asd98leo519993.codeanyapp.com/index", 
+      type: 'POST',
+      data: "userName="+localStorage.getItem("userName")+"&favreport1=favreport1" ,
+      success: function(result){
+        alert("ddd");
+      alert(result);
+     // $("#div1").html(result);
+          },error: function (xhr, textStatus, errorThrown) {
+alert(textStatus);
+                         console.log(textStatus);
+
+                     }
+      }
+    );
+  });
+});
+</script>
+<script>
+  $(document).ready(function()
+{   
+       $("#favbut2").click(function(){
+    alert("callnow");
+    $.ajax(
+      {
+      url: "http://port-9001.database-asd98leo519993.codeanyapp.com/index", 
+      type: 'POST',
+      data: "userName="+localStorage.getItem("userName")+"&favreport2=favreport2" ,
+      success: function(result){
+        alert("ddd");
+      alert(result);
+     // $("#div1").html(result);
+          },error: function (xhr, textStatus, errorThrown) {
+alert(textStatus);
+                         console.log(textStatus);
+
+                     }
+      }
+    );
+  });
+});
+</script>
+<script>
+  $(document).ready(function()
+{   
+       $("#favbut3").click(function(){
+    alert("callnow");
+    $.ajax(
+      {
+      url: "http://port-9001.database-asd98leo519993.codeanyapp.com/index", 
+      type: 'POST',
+      data: "userName="+localStorage.getItem("userName")+"&favreport3=favreport3" ,
+      success: function(result){
+        alert("ddd");
+      alert(result);
+     // $("#div1").html(result);
+          },error: function (xhr, textStatus, errorThrown) {
+alert(textStatus);
+                         console.log(textStatus);
+
+                     }
+      }
+    );
+  });
+});
+</script>
+<script>
+  $(document).ready(function()
+{   
+       $("#favbut4).click(function(){
+    alert("callnow");
+    $.ajax(
+      {
+      url: "http://port-9001.database-asd98leo519993.codeanyapp.com/index", 
+      type: 'POST',
+      data: "userName="+localStorage.getItem("userName")+"&favreport4=favreport4" ,
+      success: function(result){
+        alert("ddd");
+      alert(result);
+     // $("#div1").html(result);
+          },error: function (xhr, textStatus, errorThrown) {
+alert(textStatus);
+                         console.log(textStatus);
+
+                     }
+      }
+    );
+  });
+});
+</script>
+  </body>
+
+</html>
